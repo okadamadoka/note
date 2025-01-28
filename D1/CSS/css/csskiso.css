@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.b0{
+	display: flex;
+	justify-content: space-around;
+	margin: 5% auto;
+}
+.p{
+	font-size: 2rem;
+	/*cssで文字の大きさ指定する単位は、%、px、pt、em、rem*/
+	/*HTMLの入力した初期のサイズは16px*/
+	/*emとは親要素で指定された文字の大きさである 相対的な大きさ*/
+	/*remとは親要素に依存しない絶対的な大きさをもとにする（16px）*/
+	/*emやremのフォントサイズ指定はわかりにくいがレスポンシブ(PC、タブレット、スマホ)のページを作るときに便利*/
+	color: #6AB1E8;
+	/*文字をボールド（太文字）にする*/
+	font-weight:bold;
+	/*文字の行間の調整はpxやptで調整はできる　相対として％での指定も可能*/
+	line-heignt:60px;
+}
+
+	/*BOXの幅と高さ*/
+.a{
+	background-color: #D5F5F7;
+	width: 350px;/*幅*/
+	height: 100px;/*高さ*/
+}
+	/*BOXの内余白*/
+.b{
+	background-color: #FFD7D8;
+	width: 350px;
+	padding: 20px 20px ;/*内側余白*/
+	/*
+	値が一つだと上下左右
+    値が二つだと上下、左右
+    値が三つだと上、左右、下
+    値が四つだと上、右、下、左
+	上から時計回りに値が入る
+	上-top,下-bottom,左-left,右-right
+    */
+}
+	/*BOXの外余白*/
+.c{
+	background-color: #ABEFBB;
+	margin-top: 50px;/*上*/
+	margin-left: 80px;/*右*/
+	margin-bottom: 50px;/*下*/
+	width: 350px;
+	/*margin:50px 0 50px 80px*/
+}
+	/*BOXの背景色*/
+.d{
+	background-color: #EFF4AB;/*色*/
+	width: 350px;
+}
+	/*BOXの境界線*/
+.e{
+	border: solid 3px #825621;/*境界線*/
+	width: 350px;
+	/*
+	bordr-bottomでBOXの下だけに線を引ける　top,left,rightもできる
+	solodは線　dottedは点線
+	*/
+}
+	/*BOXの様々な設定*/
+
+/*中央揃え*/
+.f{
+	background-color: #F8C1C1;
+	width: 350px;
+	padding: 20px 0px ;
+	/*boxの中で文字を中央揃え*/
+	text-align: center;
+	/*boxを左右中央揃え*/
+	margin: auto;
+}
+/*孫*/
+.h{
+	background-color:#C4F690;
+	width: 120px;
+	height: 120px;
+	padding-top: 20px;
+	margin: auto
+}
+/*子*/
+.i{
+	background-color:#27F3B8;
+	width: 220px;
+	height: 220px;
+	padding-top: 20px;
+	margin: auto
+}
+/*親*/
+.j{
+	background-color:#6B9BF9;
+	width: 320px;
+	height: 320px;
+	padding-top: 20px;
+}
+.p1{
+	margin-left: 0;
+}
+@media(max-width: 580px){
+	.b0{
+		display: block;
+	}
+}

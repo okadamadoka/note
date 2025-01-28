@@ -1,0 +1,77 @@
+@charset "UTF-8";
+html {
+    overflow: auto;
+}
+body{
+background-color:#ffead2;
+}
+.b0{
+    margin: auto;
+    width: 600px;
+}
+h2{
+background-color:#9e743a;
+font-size:20px;
+color:#fff0df;
+width:600px;
+}
+table{
+background-color:#ffd88e;
+}
+.memo{
+background-image: url(images/paper_00108.jpg);/*これで画像を張れる*/
+width:260px;
+}
+
+/*これがCSSのコメント*/
+#div01{
+font-size:30px;
+background-color:#ffedd9;
+padding:30px;
+/*padding(パディング)はBOXの内側の余白*/
+width:500px;
+margin:30px auto;
+/*margin(マージン)はボックスの外側の余白に*/
+border:5px dotted #9e743a;
+/*borderはboxの境界線、線の太さ、線の種類、線の色
+solidは線 dottedは点線 その他*/
+}
+/*htmlのid名とclass名をcssに繋げるには、idは# classは.*/
+.div02{
+background-color:#ffd393;
+width:120px;
+margin:30px;
+border:2px dotted #9e743a;
+}
+.g{
+ filter: grayscale(100%);
+}
+#g{
+ filter: grayscale(100%);
+ width:120px;
+ margin:30px;
+background-image: url("images/button.png");
+}
+#div03{
+background-image: url(images/sakura-2.jpg);
+width:100%;
+height:700px;
+background-size: cover;
+/*
+background-sizeでcover、ボックスサイズいっぱいに引き延ばせる
+余りにも小さい画像を伸ばすとがびがびになる
+*/
+/*
+background-repeatでno-repetは繰り返しなし
+repet-x、yでその方向に繰り返す（x=横 y=縦）
+*/
+}
+
+.div04{
+background-image: url(images/utinoko.png);
+width:100%;
+height:800px;
+background-size: cover;
+filter: brightness(118%);
+}
+

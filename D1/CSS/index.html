@@ -1,0 +1,73 @@
+<!doctype html><!--リビング スタンダード-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>CSSの基礎</title>
+<!-----//問1　CSSのリンク//----->
+<link href="css/csskiso.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>CSSの基礎</h1>
+<h2>CSSで文字の設定</h2>
+<p class="p">明日の天気は最悪の予想です(´з`)<br>
+傘を持ち歩くことをお勧めします。</p>
+	
+<h2>BOXモデルの基礎</h2>
+<div class="b0">
+	<div class="a">BOXモデルの幅と高さについて</div>
+	<p>
+		横幅=width<br>
+		高さ=height
+	</p>
+</div>
+<div class="b0">
+	<div class="b">BOXモデルの内余白について</div>
+	<p>内余白=padding</p>
+</div>
+<div class="b0">
+	<div class="c">BOXモデルの外余白について</div>
+	<p>外余白=width</p>
+</div>
+<div class="b0">
+	<div class="d">BOXモデルの背景色について</div>
+	<p>背景色=background-color</p>
+</div>	
+<div class="b0">
+	<div class="e">BOXモデルの境界線について</div>
+	<p class="p1">
+		境界線=border: solid;<br>
+		実線=solid<br>
+		solidが無いと線がつかないぞ
+	</p>
+</div>
+<div class="b0">
+<div class="f">BOXモデルの中央揃えについて</div>
+<p>中央揃え=margin: auto;</p>
+</div>
+<br>
+
+<div class="b0">
+	<div class="j">親子BOXの親について
+		<div class="i">親子BOXの子について
+			<div class="h">親子BOXの孫について</div>
+		</div>
+	</div>
+	<p>
+		＜div class="j">親子BOXの親について<br>
+		　＜div class="i">親子BOXの子について<br>
+		　　＜div class="h">親子BOXの孫について＜/div＞<br>
+		　＜/div＞<br>
+		＜/div＞
+	</p>
+</div>
+	
+
+<!--dibタグは他のタグのように明確な意味はない-->
+<!--
+id.class.はタグに名前を付けられる
+またidはそのページに一個だけ
+id.class.の始めはアルファベット以外はダメ(-a.1aなどなど)
+-->
+</body>
+</html>

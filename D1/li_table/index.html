@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>( ´з`)ｼｹﾝ…ﾍﾞﾝｷｮｳ…ﾀﾞ</title>
+</head>
+<body>
+    <h2>リスト</h2>
+    <div class="b1">
+        <div>
+            <ul>
+                <li>からあげ</li>
+                <li>ハンバーグ</li>
+                <li>おひたし</li>
+                <li>野菜を甘辛く炒めたやつ</li>
+            </ul>
+            <ol>
+                <li>鶏肉を一口サイズに切る</li>
+                <li>醤油・生姜の液に鶏肉を15分ほどつける</li>
+                <li>170度の油で表面がきつね色になるまで揚げる</li>
+                <li>美味しい！(｀･ω･´)</li>
+            </ol>
+            <dl>
+                <dt>もちむぎごはん</dt>
+                <dd>
+                    もちもちしているお米<br>
+                    お米と麦が入っているため麦でもちもち
+                </dd>
+            </dl>
+        </div>
+        <div class="p1">
+            <p>
+                ＜ul＞<br>
+                　　＜il＞＜/il＞<br>
+                ＜/ul＞<br>
+            </p>
+            <p>
+                ＜ol＞<br>
+                　　＜il＞＜/il＞<br>
+                ＜/ol＞<br>
+            </p>
+            <p>
+                ＜dl＞ dlじゃった…(´・ω・`)<br>
+                　　＜dt＞＜/dt＞<br>
+                　　＜dd＞＜/dd＞<br>
+                ＜/dl＞<br>
+            </p>
+        </div>
+        <div>
+            <dl>
+                <dt>リスト-スタイル-タイプ:</dt>
+                <dt><b>list-style-type: none;</b></dt>
+                <dd>↑ul olの・や１.とか消す</dd>
+                <br>
+                <dt>テキスト-デコレーション:</dt>
+                <dt><b>text-decoration: none;</b></dt>
+                <dd>↑aタグの下線を消したり取り消し線とかも消せる</dd>
+                <br>
+                <dt>ボーダー-下-点線:</dt>
+                <dt><b>border-bottom: dashed 1px #5d75a4;</b></dt>
+                <dd class="s1">↓これ</dd>
+                <dt>ボーダー-下-線:</dt>
+                <dt><b>border-bottom: solid 1px #5d75a4;</b></dt>
+                <dd class="s2">↓これ</dd>
+            </dl>
+            
+            
+        </div>
+    </div>
+    <h2>テーブル</h2>
+    <div class="b1">
+        <p>
+            trでtdを囲めば横がtdの数分できる<br>
+            ＜tr＞<br>
+            　　＜td＞ 0-0 ＜/td＞<br>
+            　　＜td＞ 0-1 ＜/td＞<br>
+            　　＜td＞ 0-2 ＜/td＞<br>
+            ＜/tr＞<br>
+        </p>
+        <div>
+            <div class="b0">
+                <table class="table0">
+                    <tr>
+                        <td>0-0</td>
+                        <td>0-1</td>
+                        <td>0-2</td>
+                    </tr>
+
+                    <tr>
+                        <td>1-0</td>
+                        <td>1-1</td>
+                        <td>1-2</td>
+                    </tr>
+
+                    <tr>
+                        <td>2-0</td>
+                        <td>2-1</td>
+                        <td>2-2</td>
+
+                    </tr>
+                </table>
+                <h1 class="tp"><span>→</span></h1>
+                <table class="table">
+                    <tr>
+                        <td>0-0</td>
+                        <td>0-1</td>
+                        <td>0-2</td>
+                    </tr>
+
+                    <tr>
+                        <td>1-0</td>
+                        <td>1-1</td>
+                        <td>1-2</td>
+                    </tr>
+
+                    <tr>
+                        <td>2-0</td>
+                        <td>2-1</td>
+                        <td>2-2</td>
+
+                    </tr>
+                </table>
+            </div>
+            <p class="tp">
+                線の色を白<br>
+                背景色を水色<br>
+                こんなこともできるぞ
+            </p>
+        </div>
+        <div>
+        <table class="table2">
+            <tr>
+                <th>項目</th>
+                <th>説明</th>
+            </tr>
+
+            <tr>
+                <th>会場</th>
+                <td>チャペル</td>
+            </tr>
+
+            <tr>
+                <th>披露宴</th>
+                <td>ご飯</td>
+            </tr>
+
+            <tr>
+                <th>費用</th>
+                <td>500円</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">オプション</th>
+                <td>お菓子</td>
+            </tr>
+
+            <tr>
+                
+                <td>ご飯</td>
+            </tr>
+
+            <tr>
+
+                <td>キャンドル</td>
+            </tr>
+        </table>
+
+        <ul>
+            <span>
+            <li>縦…rowspan</li>
+            <li>横…colspan</li>
+            </span>
+        </ul>
+        </div>
+    </div>
+
+    <div class="b1">
+        <dl class="setu">
+            <dt>theadタグ</dt>
+            <dd>テーブルのヘッダー部分</dd>
+
+            <dt>tbodyタグ</dt>
+            <dd>テーブルのボディー部分</dd>
+
+            <dt>tfootタグ</dt>
+            <dd>テーブルのフッター部分</dd>
+
+            <dt>thタグ(見出し)</dt>
+
+            <dt>tdタグ(横…例)</dt>
+
+            <dt>trタグ(縦…行)</dt>
+            <dt>
+                tableのtr,tdに線を付けて<span><b>tableタグ</b></span>に<br>
+                <b>border-collapse: collapse;{<br>
+                }</b>
+                <br>を付ければ一本線になるぞ
+            </dt>
+        </dl>
+        <div>
+            <dl>
+            <dt>バーチカル-アライン:</dt>
+            <dt><b>vertical-align: top;</b></dt>
+            <dd>縦に並べてくれる</dd>
+            <dt>ボーダー-コラプス:</dt>
+            <dt><b>border-collapse: collapse;</b></dt>
+            <dd>線を一本線にしてくれる</dd>
+            <dt>ファースト-チャイルド:</dt>
+            <dt><b>nth-child:</b></dt>
+            </dl>
+        </div>
+        <div>
+            <h4>tableセルを結合する際、<span>縦方向はrowspan</span>、<span>横方向はcolspan</span>という属性を使えばOK</h4>
+            <h4>table tbody tr:nth-child(){<br>
+            }<br></h4>
+            ↑cssでこれを使うときに()に入れられるもの
+            <ul>
+                <li>nth-child…n番目の</li>
+                <li>odd…奇数</li>
+                <li>even…偶数</li>
+            </ul>
+        </div>    
+    </div> 
+    <h2>画像</h2>
+    <dl>
+        <dt>figureタグ</dt>
+        <dd>画像と軽い説明をまとめられるタグ</dd>
+
+        <dt>figcaptionタグ</dt>
+        <dd>
+            <span><b>figcaption</b>は<b>figure</b>の中</span>で使える<br>
+            キャプションを意味する、imgの前でも後でもどっちでもよし
+        </dd>
+    </dl>
+    <div class="b0">
+        <p>
+        ＜figure＞<br>
+        　　　＜img＞画像＜/img＞<br>
+        <span>　　＜figcaption＞説明＜/figcaption＞</span><br>
+        ＜/figure＞<br>
+        </p>
+        <h4 class="p2">← どっちでもよし →</h4>
+        <p>
+        ＜figure＞<br>
+        <span>　　＜figcaption＞説明＜/figcaption＞</span><br>
+        　　　＜img＞画像＜/img＞<br>
+        ＜/figure＞<br>
+        </p>
+    </div>
+    <h2>背景画像</h2>
+    <div class="b1">
+        <div>
+            <dl>
+                <dt><b>background-image: url();</b></dt>
+                <dd>↑cssで画像貼れる</dd>
+                <dt><b>background-repeat: no-repeat;</b></dt>
+                <dd>↑リピート解除</dd>
+                <dt><b>background-position: left bottom;</b></dt>
+                <dd>↑位置を変えている(左 下)</dd>
+                <br>
+                <dt>background-image: url() <b>,</b> url();</dt>
+                <dt>background-repeat: no-repeat <b>,</b> no-repeat;</dt>
+                <dt>background-position: left bottom <b>,</b> left top;</dt>
+                <dd>↑ , (カンマ)で区切れば何個でも</dd>
+            </dl>
+        </div>
+        <div class="b2">
+            <b>貼っただけ</b><br>
+            シ<br>
+            マ<br>
+            エ<br>
+            ナ<br>
+            ガ
+        </div>
+        <div class="b3">
+            <b>リピート解除</b><br>             
+            シ<br>
+            マ<br>
+            エ<br>
+            ナ<br>
+            ガ
+        </div>
+        <div class="b4">
+            <b>位置を調整(左 下)</b><br>
+            シ<br>
+            マ<br>
+            エ<br>
+            ナ<br>
+            ガ
+        </div>
+    </div>
+    <h2>レスポンシブ</h2>
+    <div class="b1">
+        <p>@media (max-width: 600px){<br>
+        　　クラス{<br>
+        　　　　 width: 600px;<br>
+        　　}<br>
+        }<br>
+        <span><b>600以下</b>を表示</span>
+        </p>
+
+        <p>@media (min-width: 601px) and (max-width: 800px){<br>
+        　　クラス{<br>
+        　　　　width: 600px;<br>
+        　　}<br>
+        }<br>
+        <span><b>601以上800以下</b>を表示</span>
+        </p>
+
+        <p>@media (min-width: 801px){<br>
+        　　クラス{<br>
+        　　　　width: 801px;<br>
+        　　}<br>
+        }<br>
+        <span><b>801以上</b>を表示</span>
+        </p>
+    </div>
+</body>
+</html>

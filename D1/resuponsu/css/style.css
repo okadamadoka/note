@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* ページ全体のベーススタイル */
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #353535;
+}
+/* メインのボックススタイル */
+.box01{
+    width: 90%;
+    height: 500px;
+    background-color:#ccc;
+    margin: 0 auto;
+}
+.box01 p{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 20px;
+    /*
+    webの文字の大きさについて
+    ・デフォルトは16px
+    ・px,pt,mm…絶対単位
+    ・em（親（入っている場所）の数値を基に）,rem(16pxを基に)…相対単位
+    */
+}
+/* レスポンシブデザインのためのメディアクエリ */
+
+/* デスクトップ (1024px以上) */
+@media(min-width: 1024px){
+    .box01{
+        background-color:#3498db;
+    }
+}
+/*
+min-width…最小で（これ以上減ったら変わる）
+max-width…最大で(これ以上増えたら変わる)
+*/
+/* タブレット (768px以上1024px未満) */
+@media(min-width: 768px) and (max-width: 1024px){
+    .box01{
+        background-color: #e67e22;
+    }
+}
+/* スマートフォン (768px以下) */
+@media(max-width: 768px){
+    .box01{
+        background-color:#e74c3c;
+    }
+}
+.box04{
+    background-color: #e67e22;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+/*上下左右を揃えるなら
+これら三つを親にかける ↓*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box04 p{
+    text-align: center;
+    background-color: #e74c3c;
+    width: 450px;
+    height: 150px;
+}
+
+.box05{
+    background-color: #e67e22;
+    width: 600px;
+    height: 300px;
+    padding: 50px;/*このpadding分増えてる*/
+    border: solid #3498db 10px;
+    margin: 20px auto;
+    /*上下左右を揃えるなら
+    これら三つを親にかける ↓*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box05 p{
+    text-align: center;
+    background-color: #e74c3c;
+    width: 450px;
+    height: 150px;
+}
+.box06{
+    text-align: center;
+    font-size: 30px;
+}
+/*------------------------*/
+.box02{
+    background-color: #e67e22;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    /*上下左右を揃えるなら
+これら三つを親にかける ↓*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box02 p{
+    text-align: center;
+    background-color: #e74c3c;
+    width: 450px;
+    height: 150px;
+}
+
+.box03{
+    background-color: #e67e22;
+    width: 600px;
+    height: 300px;
+    padding: 50px;/*このpadding分増えてる*/
+    border: solid #3498db 10px;
+    margin: 20px auto;
+    box-sizing: border-box;/*これで600pxに固定している*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box03 p{
+    text-align: center;
+    background-color: #e74c3c;
+    width: 450px;
+    height: 150px;
+}
+.k{
+    color: #e74c3c;
+}

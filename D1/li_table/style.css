@@ -1,0 +1,103 @@
+html {
+    overflow: auto;
+}
+h2{
+    border-bottom: solid 3px #5d75a4;
+    margin-bottom: 3%;
+}
+.b0{
+    display: flex;
+    justify-content: space-around;
+}
+.b1{
+    display: flex;
+    justify-content: space-around;
+}
+.p1 p{
+    padding: 2%;
+    width: 100%;
+}
+.tp{
+    margin: 5%;
+    text-align: center;
+}
+.table0{
+    border-collapse: collapse;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+}
+.table0 tr,.table0 td{
+    border: solid 1px #5d75a4;
+}
+
+.table{
+    background-color: #dce8ff;
+    border-collapse: collapse;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+}
+.table tr,.table td{
+    border: solid 4px #fff;
+}
+
+.table2{
+    border-collapse: collapse;
+    width:250px;
+}
+.table2 th,
+.table2 tr,
+.table2 td{
+    padding: 2%;
+    border: solid 1px #5d75a4;
+}
+span{
+    color: #8fb5ff;
+}
+h4{
+    margin: 5% 0 0;
+}
+.p2{
+    text-align: center;
+}
+.s1{
+    border-bottom: dashed 1px #5d75a4;
+}
+.s2{
+    border-bottom: solid 1px #5d75a4;
+}
+.b2{
+    width: 20%;
+    height: 20%;
+    color: #8fb5ff;
+    background-image: url(Shimaenaga.webp);
+}
+.b3{
+    width: 20%;
+    height: 20%;
+    color: #8fb5ff;
+    background-image: url(Shimaenaga.webp);
+    background-repeat: no-repeat;
+}
+.b4{
+    width: 20%;
+    height: 20%;
+    color: #8fb5ff;
+    background-image: url(Shimaenaga.webp);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+@media(max-width: 1000px){
+    .b1{
+        display: block;
+    }
+    .b2,.b3,.b4{
+        width: 100%;
+        height: 100%;
+        white-space: nowrap; 
+    }
+    .s1,.s2{
+        width: 50%;
+    }
+}
