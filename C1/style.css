@@ -1,0 +1,143 @@
+body{
+    color: #666666;
+}
+span{
+    color: rgb(255, 101, 35);
+    font-size: 20px;
+}
+.mein{
+    display: flex;
+    justify-content: space-around;
+}
+.skp{
+    font-size: 1.3em;
+    font-weight: bold;
+    border:dashed rgba(255, 194, 125,0.5);
+}
+.skp_2{
+    text-align: center;
+}
+dt{
+    font-size: 20px;
+    font-weight: bold;/*太文字*/
+}
+
+.pdca .A{
+    background-color: rgb(195, 215, 255);
+    width: 45%;
+}
+.pdca .P{
+    background-color: rgb(241, 254, 255);
+    width: 45%;
+}
+.pdca .D{
+    background-color: rgb(197, 255, 193);
+    width: 45%;
+}
+.pdca .C{
+    background-color: rgb(207, 184, 208);
+    width: 45%;
+}
+.tango{
+    margin: 2% auto;
+    padding: 2%;
+    width: 90vw;
+    border:dashed rgba(255, 194, 125,0.5);
+}
+
+.mein dd span{
+    font-size: 16px;
+}
+
+.pdca{
+    width: 60%;
+    margin: 3% auto;
+}
+.p{
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+.ad{
+    display: flex;
+    justify-content: space-around;
+}
+.c{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+.A p{
+    display: block;
+    text-align: center;
+}
+.P p{
+    display: block;
+    text-align: center;
+}
+.D p{
+    display: block;
+    text-align: center;
+}
+.C p{
+    display: block;
+    text-align: center;
+}
+
+/*-------box2---------*/
+h2{
+    border-bottom: solid rgb(255, 194, 125);
+    margin: 0  3% 2%;
+}
+.tango h2{
+    border-bottom:none;
+}
+.box2 h3,p{
+    margin-left: 5%;
+}
+.a1{
+    color: #65ea60;
+    font-weight: normal;
+}
+.a2{
+    color: #8682ff;
+    font-weight: normal;
+}
+.a3{
+    color: #7fb2ec;
+    font-weight: normal;
+}
+li span{
+    font-size: 16px;
+}
+.box2{
+    width: 45%;
+}
+.A2{
+    background-color: rgb(195, 215, 255);
+    width: 23%;
+}
+.P2{
+    background-color: rgb(241, 254, 255);
+    width: 23%;
+}
+.D2{
+    background-color: rgb(197, 255, 193);
+    width: 23%;
+}
+.C2{
+    background-color: rgb(207, 184, 208);
+    width: 23%;
+}
+@media(max-width: 850px){
+    .mein{
+        display: block;
+    }
+    .box2{
+        width: 100%;
+    }
+}
