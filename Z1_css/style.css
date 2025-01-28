@@ -1,0 +1,35 @@
+.zen-kurenaido-regular {
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow: auto;
+}
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 232);
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+a:link{
+    color: #f18140;/*未訪問*/
+}
+a:visited{
+    color: #7f5339;/*訪問済み*/
+}
+h2,p{
+    margin: 1% auto;
+}
+li{
+    margin: .5% auto;
+}
+@media(max-width: 850px){}
