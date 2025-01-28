@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webクリエイター</title>
+    <link rel="stylesheet" href="../css/web.css">
+</head>
+
+<body id="top">
+<div class="p">
+    <h1>3-1</h1>
+
+    <h2>☆ CSSの基礎知識</h2>
+
+    <h3>CSSはHTMLの表示を制御するための言語</h3>
+    <p>
+        CSS（Cascading Style Sheets）<br>
+        HTMLにスタイル機能を提供し、表示を制御して見た目を整形するための言語<br>
+        フォントを変える、複雑なレイアウトを組むetc
+    </p>
+
+
+    <h3>CSSの基本的な仕組み</h3>
+    <p>
+        関連するHTMLドキュメントの中から要素を選択し、その選択した要素に適したスタイルを適用して表示を変更する<br>
+        例）<br>
+            見出しのテキスト{
+                            箇条書き;
+                            箇条書き;
+
+            }
+    </p>
+
+
+    <h3>CSSの基本的な書式と各部の名称</h3>
+    <p>
+        例）<br>
+        h1{
+            background-color:#FFFAFO;
+            color:#FFF;
+        }
+    </p>
+
+    <dl>
+        <dt>ルール（ルールセット）</dt>
+        <dd>
+            セレクターと宣言ブロックがセットになったもの（つまり全体）<br>
+            CSSのルールはアルファベット、：、；、スペースなどの記号も含めて全て半角で記述する
+        </dd><br>
+
+        <dt>セレクター</dt>
+        <dd>
+            HTMLドキュメントから特定の要素を選択する部分<br>
+            「パターン」と呼ばれる、要素を選択する条件が定義されている<br>
+            例）h1
+        </dd><br>
+
+        <dt>宣言ブロック</dt>
+        <dd>
+            開始波カッコ（{）から終了波カッコ（}）までの部分<br>
+            この中にセレクターで選択した要素に適用するスタイルを記述する<br>
+            例）{
+                background-color:#FFFAFO;
+                color:#FFF;
+                }
+        </dd><br>
+
+        <dt>プロパティ</dt>
+        <dd>
+            CSSで操作できるスタイルそれぞれに「プロパティ」が定義されている（「フォントを指定する」「テキスト色を変更する」）<br>
+            例）color
+        </dd><br>
+
+        <dt>プロパティ値</dt>
+        <dd>
+            プロパティに設定する値<br>
+            色のプロパティであれば、値に色を設定する<br>
+            プロパティとプロパティ値の間にはコロン（:）が必ず入る<br>
+            プロパティ値の後ろには必ずセミコロン(;)が付く<br>
+            例）#FFF
+        </dd><br>
+
+        <dt>宣言（スタイル宣言）</dt>
+        <dd>
+            プロパティとその値をまとめた呼称<br>
+            必ずプロパティとプロパティ値はセットで記述する<br>
+            例）background-color:#FFFAFO;
+        </dd>
+    </dl>
+    
+    <h3>@ルール</h3>
+    <p>cssには"@マークルール"がある</p>
+    <dl>
+    <dt>@charsetルール</dt>
+    <dd>
+        cssの文字コード指定文<br>
+        @charset "UTF-8";
+    </dd>
+
+    <dt>@importコード</dt>
+    <dd>
+        cssからまた別のcssを読み込む<br>
+        @import 読み込むCSSファイルへのパス
+    </dd>
+
+    <dt>@mediaルール</dt>
+    <dd>
+        特定の条件をカギに適用されるcssにする<br>
+        @media(max-width: 500px){ここにCSSルールを記述}
+    </dd>
+    
+        <div>
+            <nav>
+                <ul class="b0">
+                    <li><a href="../P_2/web.2-9.html">2-9</a></li>
+                    <li>3-1</li>
+                    <li><a href="web.3-5.html">3-5</a></li>
+                </ul>
+            </nav>
+        </div>
+</div>
+<nav class="nav2">
+    <ul>
+        <li><a href="../P_2/web.2-1.html">2-1<br>htmlの基礎知識</a></li>
+        <li><a href="../P_2/web.2-2.html">2-2<br>htmlの基礎知識2</a></li>
+        <li><a href="../P_2/web.2-4.html">2-4<br>html 5の特徴</a></li>
+        <li><a href="../P_2/web.2-5.html">2-5<br>基本をhtmlを記述する</a></li>
+        <li><a href="../P_2/web.2-6.html">2-6<br>基本をhtmlを記述する2</a></li>
+        <li><a href="../P_2/web.2-7.html">2-7<br>パンリストを作成する</a></li>
+        <li><a href="../P_2/web.2-8.html">2-8<br>領域を作成する</a></li>
+        <li><a href="../P_2/web.2-9.html">2-9<br>フッター領域を作成する</a></li>
+        <li>3-1<br>CSSの基礎知識</li>
+        <li><a href="web.3-5.html">3-5<br>背景色・テキストの色を指定する</a></li>
+    </ul>
+</nav>
+</body>
+</html>

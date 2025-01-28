@@ -1,0 +1,103 @@
+html{
+    background-size:cover;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.p{
+    width: 80vw;
+}
+.b0{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5em;
+    color: rgb(165, 91, 38);
+    margin: 3% auto;
+    padding: 0;
+}
+.b0 a{
+    color: rgb(248, 135, 54);
+    text-decoration: none;
+}
+.nav2{
+    text-align: center;
+    color: rgb(165, 91, 38);
+    margin: 3% auto;
+    margin-left: 5%;
+    width: 20vw;
+}
+.nav2 ul{
+    list-style-type: none;
+    padding: 0;
+}
+.nav2 li{
+    margin: 10% auto;
+}
+.nav2 a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(248, 135, 54);
+}
+@media(max-width: 850px){
+    #top{
+        display: block;
+    }
+    .p{
+        width: 100vw;
+    }
+    .nav2{
+        margin: 0 5% 0 0; 
+        width: 100vw;  
+    }
+    .nav2 li{
+        margin: 5%;
+    }
+}
+
+
+/*2-1*/
+/*親ボックスの設定*/
+.box1{
+	width: 300px;
+	height: 300px;
+	margin-top:50px;
+	background-color: #3399ff;
+	}
+
+/*子ボックスの設定*/
+.box2{
+	width: 200px;
+	height: 200px;
+	margin-top:25px;
+	background-color: #33cc66;
+	}
+
+/*親ボックスの設定*/
+.box3{
+	width: 100px;
+	height: 100px;
+	margin-top:25px;
+	background-color: #ffcc66;
+	}
+.box{
+	width: 400px;
+	height: 200px;
+}
+/*2-1*/
+
+/*2-5*/
+img{
+    width: 10em;
+    height: 10em;
+}
+/*2-5*/
+
+/*2-7*/
+span{
+    color: rgb(220, 164, 209);
+    font-size: 20px;
+}
+/*2-7*/
