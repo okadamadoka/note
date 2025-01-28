@@ -88,6 +88,21 @@ h4{
     background-repeat: no-repeat;
     background-position: left bottom;
 }
+
+
+.top_p1{
+    display: block;
+    margin: 2% 2% 5% 80%;
+    font-size: 1.3em;
+    white-space: nowrap;
+}
+a:link{
+    color: #f18140;/*未訪問*/
+}
+a:visited{
+    color: #7f5339;/*訪問済み*/
+}
+
 @media(max-width: 1000px){
     .b1{
         display: block;
@@ -100,16 +115,8 @@ h4{
     .s1,.s2{
         width: 50%;
     }
-}
-.top_p1{
-    display: block;
-    margin: 2% 2% 5% 80%;
-    font-size: 1.3em;
-    white-space: nowrap;
-}
-a:link{
-    color: #f18140;/*未訪問*/
-}
-a:visited{
-    color: #7f5339;/*訪問済み*/
+    .top_p1{
+        display: block;
+        margin: 0 0 0 65%;
+    }
 }

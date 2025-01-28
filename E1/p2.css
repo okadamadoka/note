@@ -41,17 +41,10 @@ p{
 .g{
     color: #18c11b;
 }
-@media(max-width: 800px){
-    .mein{
-        display: block;
-    }
-    .js{
-        width: 100%;
-    }
-    .ko-do{
-        width: 100%;
-    }
-}
+
+
+
+
 .top_p1{
     display: block;
     margin: 2% 2% 5% 80%;
@@ -63,4 +56,20 @@ a:link{
 }
 a:visited{
     color: #7f5339;/*訪問済み*/
+}
+
+@media(max-width: 800px){
+    .mein{
+        display: block;
+    }
+    .js{
+        width: 100%;
+    }
+    .ko-do{
+        width: 100%;
+    }
+    .top_p1{
+        display: block;
+        margin: 0 0 0 65%;
+    }
 }
