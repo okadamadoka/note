@@ -164,7 +164,7 @@ section a{
 footer{
     padding-top:  3%;
     background-color: #8a6e50;
-    height: 30vh;
+    height: 35vh;
     color: #eee;
 }
 footer p{
@@ -574,4 +574,16 @@ span{
         width: 350px;
     }
     
+}
+.top_p1{
+    display: block;
+    margin: 0% 2% 0% 80%;
+    font-size: 1.3em;
+    white-space: nowrap;
+}
+.top_p1 a:link{
+    color: #fffaf7;/*未訪問*/
+}
+.top_p1 a:visited{
+    color: #ffc6a7;/*訪問済み*/
 }
