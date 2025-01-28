@@ -1,0 +1,35 @@
+html {
+    overflow: auto;
+}
+h2{
+    border-bottom: 2px solid rgb(30, 117, 10);
+}
+h4{
+    border-bottom: .5px solid rgb(30, 117, 10);
+}
+span{
+    font-size: 20px;
+    color: rgb(10, 198, 70);
+    font-weight: bold;
+}
+.b0{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.b2{
+    width: 40vw;
+    padding-left: 5%;
+}
+.kuma{
+    color: #2a4aca;
+}
+@media(max-width: 850px){
+    .b0{
+        display: block;
+    }
+    .b2{
+        width: 100%;
+        padding-left: 0;
+    }
+} 
