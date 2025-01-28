@@ -71,21 +71,13 @@ dt{
     display: flex;
     justify-content: space-around;
 }
-.A p{
-    display: block;
-    text-align: center;
-}
-.P p{
-    display: block;
-    text-align: center;
-}
-.D p{
-    display: block;
-    text-align: center;
-}
+.A p,
+.P p,
+.D p,
 .C p{
     display: block;
     text-align: center;
+    white-space: nowrap;
 }
 
 /*-------box2---------*/
@@ -133,14 +125,10 @@ li span{
     background-color: rgb(207, 184, 208);
     width: 23%;
 }
-@media(max-width: 850px){
-    .mein{
-        display: block;
-    }
-    .box2{
-        width: 100%;
-    }
-}
+
+
+
+
 .top_p1{
     display: block;
     margin: 2% 2% 5% 80%;
@@ -152,4 +140,29 @@ a:link{
 }
 a:visited{
     color: #7f5339;/*訪問済み*/
+}
+
+
+@media(max-width: 850px){
+    .mein{
+        display: block;
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box1{
+        display: block;
+        width: 100%;
+    }
+    .box1 .A2,.box1 .P2,.box1 .D2,.box1 .C2{
+        width: 100%;
+    }
+    dt{
+        margin-top: 3%;
+    }
+    .top_p1{
+        display: block;
+        margin: 0 0 0 65%;
+    }
 }
