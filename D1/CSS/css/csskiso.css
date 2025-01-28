@@ -104,3 +104,15 @@
 		display: block;
 	}
 }
+.top_p1{
+    display: block;
+    margin: 2% 2% 5% 80%;
+    font-size: 1.3em;
+    white-space: nowrap;
+}
+a:link{
+    color: #f18140;/*未訪問*/
+}
+a:visited{
+    color: #7f5339;/*訪問済み*/
+}

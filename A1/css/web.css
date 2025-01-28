@@ -101,3 +101,16 @@ span{
     font-size: 20px;
 }
 /*2-7*/
+
+.top_p1{
+    display: block;
+    margin: 2% 30% 2% 75%;
+    font-size: 1.3em;
+    white-space: nowrap;
+}
+.top_p1 a:link{
+    color: #f18140;/*未訪問*/
+}
+.top_p1 a:visited{
+    color: #7f5339;/*訪問済み*/
+}
