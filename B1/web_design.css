@@ -24,15 +24,8 @@ span{
 .kuma{
     color: #2a4aca;
 }
-@media(max-width: 850px){
-    .b0{
-        display: block;
-    }
-    .b2{
-        width: 100%;
-        padding-left: 0;
-    }
-} 
+
+
 .top_p1{
     display: block;
     margin: 2% 2% 5% 80%;
@@ -45,3 +38,17 @@ a:link{
 a:visited{
     color: #7f5339;/*訪問済み*/
 }
+
+@media(max-width: 850px){
+    .b0{
+        display: block;
+    }
+    .b2{
+        width: 100%;
+        padding-left: 0;
+    }
+    .top_p1{
+        display: block;
+        margin: 0 0 0 65%;
+    }
+} 
