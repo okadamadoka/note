@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="p2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="mein">
+    <div class="js">
+        <title>js説明</title>
+        <h2>jsについて</h2>
+        <p>
+        <h4>＜div class="<span class="g">b1</span>"＞＜/div＞</h4>
+        ↑こういうのをjsではドムって言うらしい<br>
+        (Document Obiect Madel)DOM<br>
+        </p>
+        <p>
+        <h4><span class="p">document</span>.<span class="r">querySelector</span>('<span class="g">.b1</span>').<span class="p">innerHTML"</span>=<span class="g">こんにちは（> <）</span>";</h4>
+        document.=オブジェクト<br>
+        querySelector=メソッド(関数)<br>
+        (　　)=引数<br>
+        .innerHTML=プロパティ(変数)<br>
+        <h4>オブジェクト.メソッド（）</h4>
+        jsの形は全部これで出来ている
+        </p>
+        <h2>宣言について</h2>
+        <p>
+            <h4><span class="p">const b1</span> ='<span class="g">こんにちは</span>';</h4>
+            <h4><span class="p">var b1</span>='<span class="g">こんにちは</span>';</h4>
+
+            これが宣言になる<br>
+            <dl>
+                <dt>const(コンスト)</dt>
+                <dd>
+                    constを使うと定数宣言 idみたいなもの<br>
+                    クラスとかもう変わらないもの宣言
+                </dd>
+
+                <dt>let(レット)</dt>
+                <dd>
+                    letを使うと変数宣言 classみたいなもの<br>
+                    数値とか何か変わるものの宣言
+                </dd>
+
+                <dt>var(バー)</dt>
+                <dd>varはjsが最初からあった変数宣言 あんま使わない..かも？</dd>
+            </dl>
+        </p>
+        <h2>宣言について2</h2>
+        <p>
+        <h4><span class="p">const b1</span> =<span class="r">document</span>.<span class="p">querySelector</span>('<span class="g">.b1</span>');</h4>
+        jsの一番最初にあるこういうの↑がjsの定義<br>
+        htmlのタグではjsで機能しないため機能するDOMに変換する
+        </p>
+        <ul>
+            <li>querySelector...なんでもよし</li>
+            <li>getElementById...idのみだが処理がはやーい</li>
+        </ul>
+        <h2>関数定義について</h2>
+        <h4>
+            <span class="p">function</span> <span class="r">aa</span>(){<br>
+                ...<br>
+            };<br>    
+        </h4>
+        <p>
+            ↑代表的な関数定義の方法としてはこれになる<br>
+            function...関数<br>
+            aa...関数名<br>
+            (　　)=(引数)<br>
+             処理={　　}<br>
+             となるしかしこれはただ「aa」という<span>関数を定義しただけ</span>でなのだ(´・ω・`)<br>
+             
+             <h4><span class="r">関数名</span>();</h4>
+             ↑<span>実行するため</span>にはこれをつける<br>
+            <h3>引数ってなに？</h3>
+            <span class="p">function</span> <span class="r">aa</span><b>(<span class="g">ここと！</span>)</b>{<br>
+            };<br>  
+            <span class="r">関数名</span><b>(<span class="g">ここだぞ！</span>)</b>;<br>
+            「引数」とは関数にいれて処理の中で使うことができる値のこと
+        </p>
+        <h2>アロー関数について</h2>
+        <h4>
+            <span class="p">let</span> <span class="r">bb</span> =()=>{<br>
+                ...<br>
+            };<br>
+        </h4>
+        <p>
+
+            thisの値は関数定義時に決めるもできるらしい..よ？<br>
+        <h3>this値ってなに？</h3>
+            <h4><span class="p">console</span>.<span class="r">log</span>();</h4>
+            この関数の紫の部分がthis値みたい
+        </p>
+        <h2>配列(リストでも可)</h2>
+        <h4><span class="p">let ar1 </span>=['<span class="g">りんご</span>','<span class="g">みかん'</span>,'<span class="g">なし</span>'];</h4>
+        <p>
+            ↑これが配列<br>
+            ar1=配列名<br>
+            [' ',' ',];=配列
+        </p>
+        <p>
+            <h4><span class="p">console</span>.<span class="r">log</span>(<span class="p">ar1</span>);</h4>
+            配列名を指定するとリストの中全部を返してくれるぞ
+        </p>
+        <p>
+            <h4><span class="p">console</span>.<span class="r">log</span>(<span class="p">ar1[1]</span>);</h4>
+            配列名[1]だとこの例なら「みかん」を返してくれるぞ
+        </p>
+        <h3>[1]はりんごじゃないの？</h3>
+        <p>
+            基本的にプログラムの始まりは0からで縦も0から<br>
+            cssでposition: absolute;これかけたら分かりやすい…かも
+        </p>
+        <h2>クリックしたらクラス名を追加しよう</h2>
+        <h4>
+            const ボタンにするもの =document.pquerySelector('<span class="g">ボタンにするもの</span>');<br>
+            const クラス名 =document.querySelector('<span class="g">クラス名</span>');<br>
+            ボタンにするもの.addEventListener('<span class="g">click</span>',()=>{<br>
+            　　　クラス名.classList.add('<span class="g">アニメーションの名前</span>');<br>
+            </h4>
+        <p>
+            <h4>緑で色を変えているのが<span class="g">変化する場所</span></h4>
+            色が変わらない「ボタンにするもの」,「クラス名」はjsで定義をした場所<br>
+            ?:クリックされた瞬間に.b1クラスにhideクラスがはいる
+        </p>
+        <h2>優先度を変更しよう</h2>
+        <p>
+            <h4><span class="p">クラス名</span>.<span class="r">setAttribute</span>('<span class="g">style</span>','<span class="g">z-index: 0;</span>');</h4>
+    
+            setAttribute...指定したものの値を更新、追加の設定をする<br>
+            ?:クラス名のcssにz-index: 0;に書き換えて、透明にしている
+        </p>
+        <h2>配列2</h2>
+        <p>
+            <span class="p"><b>let ar1 </span>=[<br>
+            　　　　['<span class="g">りんご</span>','<span class="g">みかん</span>','<span class="g">なし</span>'],<br>
+            　　　　['<span class="g">100円</span>','<span class="g">200円</span>','<span class="g">300円</span>'];<br>
+            ];</b></h4><br>
+            
+            これがになる多次元配列<br>
+        <h2>オブジェクト</h2>
+            <span class="p"><b>let ar1 </span>={<br>
+            　　　　<span class="g">k</span>:'<span class="g">りんご</span>',<br>
+            　　　　<span class="g">o</span>:'<span class="g">100円</span>'<br>
+            };</b></h4><br>
+                
+            これがになる連想配列<br>
+            ar1…フォルダ
+            k.o…ファイル
+            りんご.100円…ファイル内容
+        </p>
+    </div>
+    <div class="ko-do">
+        <h1>結構使うやつコード</h1>
+        <h2>js</h2>
+        <dl>
+            <dt>classList(クエリセレクター)</dt>
+            <dd>
+                <ul>
+                    <li>remove()メソッド - 指定したクラス名を削除する</li>
+                    <li>add()メソッド - 指定したクラス名を追加する</li>
+                    <li>toggle()メソッド - 指定したクラス名を追加・削除する</li>
+                </ul>
+            </dd>
+
+            <dt></dt>
+            <dd></dd>
+        </dl>
+
+        <h2>css</h2>
+        <ul>
+            <li>z-index: 0;...優先度指定、数値が多いと前に行く</li>
+            <li>position: fixed;...固定表示</li>
+            <li>display: block;...ブロック要素にする</li>
+            <li>
+                opacity: 0;...透明度
+                <ul> 
+                    <li>1...不透明</li>
+                    <li>.5...50%透明</li>
+                    <li>0...完全に透明</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</head>
+<body>

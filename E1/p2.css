@@ -1,0 +1,54 @@
+body{
+    background-color: #fffff5;
+    color: #707070;
+}
+h2{
+    border-bottom: solid #f5ff6f;
+    margin-bottom: 2%;
+}
+h3{
+    border-bottom: solid #f5ff6f;
+    margin-bottom: 1%;    
+    width: 20vw;
+}
+h4{
+    margin: 3px;
+}
+.mein{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    margin: 2%;
+}
+.js{
+    width: 50%;
+}
+.ko-do{
+    width: 40%;
+}
+/*---色---*/
+
+.p{
+    color: #9968b4;
+}
+.r{
+    color: #d35050;
+}
+.o{
+    color: #f3963f;
+}
+.g{
+    color: #18c11b;
+}
+@media(max-width: 800px){
+    .mein{
+        display: block;
+    }
+    .js{
+        width: 100%;
+    }
+    .ko-do{
+        width: 100%;
+    }
+}
