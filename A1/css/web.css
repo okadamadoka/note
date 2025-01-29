@@ -41,21 +41,6 @@ html{
     text-decoration: none;
     color: rgb(248, 135, 54);
 }
-@media(max-width: 850px){
-    #top{
-        display: block;
-    }
-    .p{
-        width: 100vw;
-    }
-    .nav2{
-        margin: 0 5% 0 0; 
-        width: 100vw;  
-    }
-    .nav2 li{
-        margin: 5%;
-    }
-}
 
 
 /*2-1*/
@@ -112,4 +97,22 @@ span{
 }
 .top_p1 a:visited{
     color: #7f5339;/*訪問済み*/
+}
+
+
+
+@media(max-width: 850px){
+    #top{
+        display: block;
+    }
+    .p{
+        width: 100vw;
+    }
+    .nav2{
+        margin: 0 5% 0 0; 
+        width: 100vw;  
+    }
+    .nav2 li{
+        margin: 5%;
+    }
 }
